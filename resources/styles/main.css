@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+.gameWindow {
+  border: 1px solid black;
+  margin: auto;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.btn-caddy {
+  text-align: center;
+}
+
+.btn-caddy button {
+  font-size: 2em;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+.gameWindow {
+  border: 1px solid black;
+  margin: auto;
+  flex-grow: 0;
+}
+
+.btn-caddy {
+  text-align: center;
+  button {
+    font-size: 2em;
+  }
+}
