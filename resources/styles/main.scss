@@ -1,15 +1,33 @@
 body {
   text-align: center;
+  background-color: rgb(43, 43, 85);
 }
-.gameWindow {
-  border: 1px solid black;
+
+#app-container {
+  position: relative;
   margin: auto;
-  flex-grow: 0;
+  height: 90vh;
+  width: 90vh;
+}
+
+#gameWindow {
+  width: 100%;
+  height: 100%;
 }
 
 .btn-caddy {
+  position: absolute;
+  right: 3vh;
+  top: 3vh;
   text-align: center;
   button {
-    font-size: 2em;
+    border-radius: 10px;
+    border: none;
+    width: 20vh;
+    margin: 1vh;
+    font-size: 3vh;
+    display: block;
+    background-color: blue;
+    color: white;
   }
 }
