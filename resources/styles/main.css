@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #2b2b55;
+  background-color: #05052e;
 }
 
 #app-container {
@@ -15,14 +15,14 @@ body {
   height: 100%;
 }
 
-.btn-caddy {
+#btn-caddy {
   position: absolute;
   right: 3vh;
   top: 3vh;
   text-align: center;
 }
 
-.btn-caddy button {
+#btn-caddy button {
   border-radius: 10px;
   border: none;
   width: 20vh;
